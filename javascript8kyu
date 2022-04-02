@@ -4,10 +4,18 @@ What ways of achieving this do you know?
 function numberToString(num) {
   return num.toString();
 }
------------
+---------------------------------------------------------------------------------------------------------------------------------------------------
 Very simple, given an integer or a floating-point number, find its opposite.
 
 function opposite(number) {
   return(-number);
 }
-------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+Write a program that returns the age (0-9) as an integer.
+
+Assume the test input string is always a valid string. For example, the test input may be "1 year old" or "5 years old". The first character in the string is always a number: 
+
+function getAge(inputString){
+  return parseInt(inputString);
+}
+----------------------------------------------------------------------------------------------------------------------------------------------
