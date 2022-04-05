@@ -4,13 +4,19 @@ What ways of achieving this do you know?
 function numberToString(num) {
   return num.toString();
 }
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
 Very simple, given an integer or a floating-point number, find its opposite.
 
 function opposite(number) {
   return(-number);
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
 Write a program that returns the age (0-9) as an integer.
 
 Assume the test input string is always a valid string. For example, the test input may be "1 year old" or "5 years old". The first character in the string is always a number: 
@@ -18,13 +24,19 @@ Assume the test input string is always a valid string. For example, the test inp
 function getAge(inputString){
   return parseInt(inputString);
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
 Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 
 function boolToWord(bool){
   return bool ? "Yes" : 'No'
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
 Return  sum of only positive values from array
 
 function positiveSum (arr) {
@@ -40,7 +52,10 @@ function positiveSum(arr) {
   }
   return total;                         // return total
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
 Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n ( inclusive ).
 
 function powersOfTwo(n) {
@@ -52,13 +67,18 @@ for(let i = 0; i <= n; i++) {
   }
   console.log(powersOfTwo(4)) // returns [1,2,4,8,16]
   
+  ---------------------------------------------------------------------------------------------------------------------------------------------------
  ----------------------------------------------------------------------------------------------------------------------------------------------
+
 Repeat a given string a specific number of times:
 
 function repeatStr (num, str) {
 return str.repeat(num)
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
 Nathan loves cycling.
 Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
 You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
@@ -66,15 +86,31 @@ You get given the time in hours and you need to return the number of litres Nath
 function litres(time) {
   return Math.floor(time * 0.5);
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
 Complete the square sum function so that it squares each number passed into it and then sums the results together.
 
 const squareSum = numbers => numbers.reduce((acc, num) => acc + (num * num), 0)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
 Given an array of integers, return a new array with each value doubled.
 
 function maps(x){
   return x.map(n => n * 2);
 }
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
+It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+function removeChar(str) {
+  return str.slice(1, -1);
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------
