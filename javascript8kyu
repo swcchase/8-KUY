@@ -1,5 +1,5 @@
-We need a function that can transform a number into a string.
-What ways of achieving this do you know?
+-- We need a function that can transform a number into a string.
+-- What ways of achieving this do you know?
 
 function numberToString(num) {
   return num.toString();
@@ -8,7 +8,7 @@ function numberToString(num) {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-Very simple, given an integer or a floating-point number, find its opposite.
+-- Very simple, given an integer or a floating-point number, find its opposite.
 
 function opposite(number) {
   return(-number);
@@ -17,9 +17,9 @@ function opposite(number) {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Write a program that returns the age (0-9) as an integer.
+-- Write a program that returns the age (0-9) as an integer.
 
-Assume the test input string is always a valid string. For example, the test input may be "1 year old" or "5 years old". The first character in the string is always a number: 
+-- Assume the test input string is always a valid string. For example, the test input may be "1 year old" or "5 years old". The first character in the string is always a number: 
 
 function getAge(inputString){
   return parseInt(inputString);
@@ -28,7 +28,7 @@ function getAge(inputString){
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+-- Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 
 function boolToWord(bool){
   return bool ? "Yes" : 'No'
@@ -37,7 +37,7 @@ function boolToWord(bool){
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Return  sum of only positive values from array
+-- Return  sum of only positive values from array
 
 function positiveSum (arr) {
   return arr.filter(x => x>=0).reduce((a, c) => a + c, 0);
@@ -56,7 +56,7 @@ function positiveSum(arr) {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n ( inclusive ).
+-- Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n ( inclusive ).
 
 function powersOfTwo(n) {
 let arr = []
@@ -70,7 +70,7 @@ for(let i = 0; i <= n; i++) {
   ---------------------------------------------------------------------------------------------------------------------------------------------------
  ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Repeat a given string a specific number of times:
+-- Repeat a given string a specific number of times:
 
 function repeatStr (num, str) {
 return str.repeat(num)
@@ -79,9 +79,9 @@ return str.repeat(num)
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Nathan loves cycling.
-Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
-You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
+-- Nathan loves cycling.
+-- Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
+-- You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
 
 function litres(time) {
   return Math.floor(time * 0.5);
@@ -90,14 +90,14 @@ function litres(time) {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Complete the square sum function so that it squares each number passed into it and then sums the results together.
+-- Complete the square sum function so that it squares each number passed into it and then sums the results together.
 
 const squareSum = numbers => numbers.reduce((acc, num) => acc + (num * num), 0)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Given an array of integers, return a new array with each value doubled.
+-- Given an array of integers, return a new array with each value doubled.
 
 function maps(x){
   return x.map(n => n * 2);
@@ -106,7 +106,7 @@ function maps(x){
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+-- It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
 
 function removeChar(str) {
   return str.slice(1, -1);
@@ -115,7 +115,7 @@ function removeChar(str) {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-Given an array of integers your solution should find the smallest integer.
+-- Given an array of integers your solution should find the smallest integer.
 
 class SmallestIntegerFinder {
   findSmallestInt(args) {
@@ -126,7 +126,7 @@ class SmallestIntegerFinder {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-Remove all spaces from a given string:
+-- Remove all spaces from a given string:
 
 function noSpaces(x) {
 return x.split(' ').join('')
@@ -134,15 +134,15 @@ return x.split(' ').join('')
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
-Given a year, return the century it is in.
+-- The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
+-- Given a year, return the century it is in.
 
 const century = year => Math.ceil(year/100)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-We need a function that can transform a string into a number. What ways of achieving this do you know?
+-- We need a function that can transform a string into a number. What ways of achieving this do you know?
 
 var stringToNumber = function(str){
   return parseInt(str);
@@ -151,7 +151,7 @@ var stringToNumber = function(str){
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+-- In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
 
 
 
@@ -162,7 +162,7 @@ function makeNegative(num) {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-Convert a boolean value to its string equivalent (true -> "true").
+-- Convert a boolean value to its string equivalent (true -> "true").
 
 function booleanToString(b){
   return b.toString();
