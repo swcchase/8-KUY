@@ -174,9 +174,9 @@ function booleanToString(b){
   The function should take three arguments - operation(string/char), value1(number), value2(number).
 The function should return result of numbers after applying the chosen operation.
   
-  function basicOp(operation, value1, value2)
+  function basicOp(char, value1, value2)
 {
-switch(operation) {
+switch(char) {
   case '+':
      return value1 + value2;
     break;
