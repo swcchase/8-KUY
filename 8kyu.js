@@ -295,3 +295,15 @@ const invert = array => array.map(num => -num);
 function solution(a, b) {
   return a.length < b.length ? a + b + a : b + a + b
 } 
+
+
+For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
+
+function findMultiples(int,limit){
+  let result = []
+  
+  for (let i = int; i<=limit ; i+=int)
+    result.push(i)
+    
+  return result
+}
