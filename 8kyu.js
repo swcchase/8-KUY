@@ -1,5 +1,5 @@
--- We need a function that can transform a number into a string.
--- What ways of achieving this do you know?
+//We need a function that can transform a number into a string.
+// What ways of achieving this do you know?
 
 function numberToString(num) {
   return num.toString();
@@ -8,7 +8,7 @@ function numberToString(num) {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Very simple, given an integer or a floating-point number, find its opposite.
+// Very simple, given an integer or a floating-point number, find its opposite.
 
 function opposite(number) {
   return(-number);
@@ -28,7 +28,7 @@ function getAge(inputString){
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
--- Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+// Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 
 function boolToWord(bool){
   return bool ? "Yes" : 'No'
@@ -37,7 +37,7 @@ function boolToWord(bool){
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
--- Return  sum of only positive values from array
+// Return  sum of only positive values from array
 
 function positiveSum (arr) {
   return arr.filter(x => x>=0).reduce((a, c) => a + c, 0);
@@ -70,7 +70,7 @@ for(let i = 0; i <= n; i++) {
   ---------------------------------------------------------------------------------------------------------------------------------------------------
  ----------------------------------------------------------------------------------------------------------------------------------------------
 
--- Repeat a given string a specific number of times:
+//Repeat a given string a specific number of times:
 
 function repeatStr (num, str) {
 return str.repeat(num)
@@ -79,9 +79,9 @@ return str.repeat(num)
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
--- Nathan loves cycling.
--- Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
--- You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
+// -- Nathan loves cycling.
+// -- Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
+// //You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
 
 function litres(time) {
   return Math.floor(time * 0.5);
