@@ -296,6 +296,7 @@ function solution(a, b) {
   return a.length < b.length ? a + b + a : b + a + b
 } 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
 
@@ -307,3 +308,27 @@ function findMultiples(int,limit){
     
   return result
 }
+
+---------------------------------------------------------------------------------
+
+Count the postive numbers in the array, and sum the negatives. Return in an array.
+
+function countPositivesSumNegatives(input) {
+    if (input == null || input.length == 0)
+      return [];
+    
+    var positive = 0;
+    var negative = 0;
+    
+    for (var i=0, l=input.length; i<l; ++i)
+    {
+      if (input[i] > 0)
+        ++ positive;
+      else
+        negative += input[i];
+    }
+    
+    return [positive, negative];
+} //should return [10,-65]
+
+--------------------------------------------------
