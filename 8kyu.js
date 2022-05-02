@@ -344,3 +344,9 @@ function findNeedle(haystack) {
   
   ----------------------------------------------------------------------------------------------------------------
   ----------------------------------------------------------------------------------------------------------------
+  
+  get the average sum of an array of numbers, and return the sum rounded down to the nearest integer. 
+  
+  function getAverage(marks){
+  return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
+}
