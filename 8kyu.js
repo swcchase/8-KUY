@@ -299,7 +299,7 @@ function solution(a, b) {
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
   
-For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
+//For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
 
 function findMultiples(int,limit){
   let result = []
@@ -313,7 +313,7 @@ function findMultiples(int,limit){
 ----------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
-Count the postive numbers in the array, and sum the negatives. Return in an array.
+//Count the postive numbers in the array, and sum the negatives. Return in an array.
 
 function countPositivesSumNegatives(input) {
     if (input == null || input.length == 0)
@@ -345,7 +345,7 @@ function findNeedle(haystack) {
   ----------------------------------------------------------------------------------------------------------------
   ----------------------------------------------------------------------------------------------------------------
   
-  get the average sum of an array of numbers, and return the sum rounded down to the nearest integer. 
+  //get the average sum of an array of numbers, and return the sum rounded down to the nearest integer. 
   
   function getAverage(marks){
   return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
@@ -354,7 +354,7 @@ function findNeedle(haystack) {
     ----------------------------------------------------------------------------------------------------------------
   ----------------------------------------------------------------------------------------------------------------
 
-    reverse a string 
+   // reverse a string 
     
   function reverseWords(str){
   return str.split(' ').reverse().join(' ');
@@ -372,12 +372,32 @@ function findNeedle(haystack) {
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
 
-  Convert a string into all uppercase.
+ // Convert a string into all uppercase.
   
   const makeUpperCase = str => str.toUpperCase();
   
   
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
+  
+// Return the number (count) of vowels in a given string. (first 7kyu, first tryyy)
+
+function getCount(str) {
+  var vowelsCount = 0;
+  var vowels = ["a","e","i","o","u"];
+  for(var i = 0;i < str.length;i++){
+    for(var j=0;j<vowels.length;j++){
+      if(str[i] === vowels[j]){
+        vowelsCount++;
+      }
+    }
+  }
+  
+  return vowelsCount;
+}
+
+----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+  
   
 
