@@ -238,7 +238,7 @@ function greet(name) {
 
  ---------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-Check if number n is divisible by both x and y. 
+//Check if number n is divisible by both x and y. 
 
 function isDivisible(n, x, y) {
   return n % x === 0 && n % y === 0
@@ -399,7 +399,7 @@ function getCount(str) {
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
 
-Write a function which calculates the average of the numbers in a given list.
+//Write a function which calculates the average of the numbers in a given list.
  
 function find_average(array) {
   // your code here
@@ -464,7 +464,17 @@ function plural(n) {
   
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
-  
+ // Clock shows h hours, m minutes and s seconds after midnight.
+
+//Your task is to write a function which returns the time since midnight in milliseconds.
+
+function past(h, m, s){
+  var miliseconds = 0;
+  miliseconds = miliseconds + s * 1000;
+  miliseconds = miliseconds + m * 60000;
+  miliseconds = miliseconds + h * 3600000;
+  return miliseconds;
+}
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
   
