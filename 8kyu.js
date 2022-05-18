@@ -501,7 +501,15 @@ var max = function(list){
 
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
+=======
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3e00e2443bbc4359d101a17e3ff1380cdd0bb56e
+>>>>>>> baba7bdb0172854377a3de1e6507963d60818620
 function squareOrSquareRoot(array) {
   return array.map(x => {
     const r = Math.sqrt(x);
