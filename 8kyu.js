@@ -499,28 +499,6 @@ var max = function(list){
 // Example
 // [4,3,9,7,2,1] -> [2,9,3,49,4,1]
 
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-
-=======
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 3e00e2443bbc4359d101a17e3ff1380cdd0bb56e
->>>>>>> baba7bdb0172854377a3de1e6507963d60818620
-function squareOrSquareRoot(array) {
-  return array.map(x => {
-    const r = Math.sqrt(x);
-    return (r % 1 ==0) ? r : (x*x)
-  })
-}
-<<<<<<< HEAD
-=======
->>>>>>> 7b274c4b918090deecc463a5ad4130eab6558335
-
->>>>>>> 3e00e2443bbc4359d101a17e3ff1380cdd0bb56e
 function squareOrSquareRoot(array) {
   return array.map(x => {
     const r = Math.sqrt(x);
@@ -528,4 +506,15 @@ function squareOrSquareRoot(array) {
   })
 }
 ----------------------------------------------------------------------------------------------------------------
+
+//Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
+
+function between(a, b) {
+  // your code here
+  arr = []
+  for(i = a;i <= b; i++){ 
+      arr.push(i)
+  }
+  return arr
+}
   
