@@ -520,3 +520,7 @@ function between(a, b) {
   
   //been too long
   
+  //function getmotivated() {
+  //return do it for future me
+}
+  
