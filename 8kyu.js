@@ -492,6 +492,8 @@ var max = function(list){
 }
 
 ----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
 // Write a method, that will get an integer array as parameter and will process every number from this array.
 // Return a new array with processing every number of the input-array like this:
 // If the number has an integer square root, take this, otherwise square the number.
@@ -506,6 +508,7 @@ function squareOrSquareRoot(array) {
   })
 }
 ----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 //Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
 
@@ -517,10 +520,19 @@ function between(a, b) {
   }
   return arr
 }
-  
+  ----------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------
   //been too long
   
   //function getmotivated() {
   //return do it for future me
+}
+----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
+//Convert the boolean value passed into b, to a string.
+
+function booleanToString(b){
+  return b.toString();
 }
   
