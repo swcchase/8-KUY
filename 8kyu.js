@@ -56,7 +56,7 @@ function positiveSum(arr) {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
--- Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n ( inclusive ).
+//Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n ( inclusive ).
 
 function powersOfTwo(n) {
 let arr = []
@@ -90,7 +90,7 @@ function litres(time) {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
--- Complete the square sum function so that it squares each number passed into it and then sums the results together.
+//Complete the square sum function so that it squares each number passed into it and then sums the results together.
 
 const squareSum = numbers => numbers.reduce((acc, num) => acc + (num * num), 0)
 
