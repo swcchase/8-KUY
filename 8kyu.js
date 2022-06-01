@@ -569,3 +569,13 @@ function squareDigits(num){
   return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
   
 }
+
+----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
+//We need a function that can transform a string into a number. What ways of achieving this do you know?
+
+function(str){
+  // put your code here
+  return Number(str);
+}
