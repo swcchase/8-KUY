@@ -612,3 +612,10 @@ String.prototype.isUpperCase = function() {
 
 
 const doubleChar = (str) => str.split("").map(c => c + c).join("");
+
+-------------------------------------------------------------------------------------------
+function removeEveryOther(arr){
+  return arr.filter(function(elem, index) {
+    return index % 2 === 0;
+  });
+}
